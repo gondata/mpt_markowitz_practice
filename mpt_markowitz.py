@@ -67,7 +67,7 @@ optimal_stats = portfolio_stats(optimal_sharpe_weights, log_returns)
 # Prints
 
 print("Optimal Portfolio Weights: ", list(zip(assets, list(optimal_sharpe_weights))))
-print("Optimal Portfolio log_returns: ", np.round(optimal_stats['Return'], 3))
+print("Optimal Portfolio Returns: ", np.round(optimal_stats['Return'], 3))
 print("Optimal Portfolio Volatility: ", np.round(optimal_stats['Volatility'], 3))
 print("Optimal Portfolio Sharpe: ", np.round(optimal_stats['Sharpe'], 3))
 
